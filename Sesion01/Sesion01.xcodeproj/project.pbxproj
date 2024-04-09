@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		856192C82BC4151C00BD0BB5 /* day01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856192C72BC4151C00BD0BB5 /* day01.cpp */; };
+		85BCA1352BC576180015AEE9 /* Flow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCA1342BC576180015AEE9 /* Flow.cpp */; };
+		85BCA1372BC57E1E0015AEE9 /* exercice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BCA1362BC57E1E0015AEE9 /* exercice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,9 @@
 		85565C682BBD8C600005F49B /* Sesion01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sesion01; sourceTree = BUILT_PRODUCTS_DIR; };
 		85565C6B2BBD8C600005F49B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		856192C72BC4151C00BD0BB5 /* day01.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = day01.cpp; sourceTree = "<group>"; };
+		85BCA1322BC5697B0015AEE9 /* Flow-Control.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Flow-Control.cpp"; sourceTree = "<group>"; };
+		85BCA1342BC576180015AEE9 /* Flow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Flow.cpp; sourceTree = "<group>"; };
+		85BCA1362BC57E1E0015AEE9 /* exercice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercice.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				856192C72BC4151C00BD0BB5 /* day01.cpp */,
+				85BCA1322BC5697B0015AEE9 /* Flow-Control.cpp */,
+				85BCA1342BC576180015AEE9 /* Flow.cpp */,
+				85BCA1362BC57E1E0015AEE9 /* exercice.cpp */,
 			);
 			path = Semana02;
 			sourceTree = "<group>";
@@ -129,7 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				856192C82BC4151C00BD0BB5 /* day01.cpp in Sources */,
+				85BCA1352BC576180015AEE9 /* Flow.cpp in Sources */,
+				85BCA1372BC57E1E0015AEE9 /* exercice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
